@@ -10,6 +10,7 @@ import Contact from "./Components/Pages/Contact";
 import Login from "./Components/Pages/Login";
 import GithubState from "./context/github/GithubState";
 import AlertState from "./context/alert/AlertState";
+// import Banner from "./Components/banner";
 
 import "./App.css";
 
@@ -20,6 +21,7 @@ const App = () => {
         <Router>
           <div className="App">
             <Navbar />
+            {/* <Banner /> */}
             <div className="container">
               <Alert />
               <Switch>
